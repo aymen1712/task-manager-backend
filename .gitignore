@@ -20,7 +20,7 @@ media/ # If user-uploaded media is stored locally and not managed by a separate 
 static/ # If collectstatic output is not meant to be version controlled
 
 # IDE-specific (e.g., PyCharm)
-.idea/
+.idea
 
 # Operating System files
 .DS_Store

@@ -1,0 +1,46 @@
+# Python
+*.pyc
+__pycache__/
+*.log
+*.pot
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.env/
+venv/
+env/
+
+# Django-specific
+db.sqlite3
+local_settings.py
+media/ # If user-uploaded media is stored locally and not managed by a separate service
+static/ # If collectstatic output is not meant to be version controlled
+
+# IDE-specific (e.g., PyCharm)
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Test/Coverage files
+.coverage
+.tox/
+.eggs/
+
+# Other
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/

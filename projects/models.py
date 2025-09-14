@@ -17,6 +17,10 @@ class Project(models.Model):
         on_delete=models.CASCADE,
         related_name='projects',
     )
+    members = models.ManyToManyField(
+        settings.AUTH_USER_MODEL,
+        related_name='projects_member_of',
+    )
 
     def __str__(self):
         return self.name
